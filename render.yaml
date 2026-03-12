@@ -1,8 +1,7 @@
 services:
   - type: web
     name: gym-upa-elite
-    env: php
+    runtime: php
     plan: free
     region: oregon
     buildCommand: composer install
-    startCommand: apache2-foreground
